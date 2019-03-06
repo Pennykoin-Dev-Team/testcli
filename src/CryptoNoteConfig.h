@@ -25,7 +25,7 @@ const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 2;
 const uint64_t COIN                                          = UINT64_C(100);  // pow(10, 8)
 const uint64_t MINIMUM_FEE                                   = UINT64_C(1);     // pow(10, 5)
 const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(1);     // pow(10, 5)
-//const uint64_t GENESIS_BLOCK_REWARD							 = UINT64_C(0);
+//const uint64_t GENESIS_BLOCK_REWARD              = UINT64_C(0);
 const uint64_t MAX_TX_MIXIN_SIZE                             = 11;
 
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
@@ -121,8 +121,8 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "0000000000000000000000000000000000000000000000000000000000000000";
 
 const std::initializer_list<const char*> SEED_NODES = {
-  "198.23.249.99:53280",
-  "107.173.102.215:53280",
+  "198.23.249.99:43280",
+  "107.173.102.215:43280",
 
 };
 
