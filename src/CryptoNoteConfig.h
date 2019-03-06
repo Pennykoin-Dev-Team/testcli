@@ -62,6 +62,7 @@ const size_t   FUSION_TX_MIN_IN_OUT_COUNT_RATIO              = 4;
 const uint32_t UPGRADE_HEIGHT_V2                             = 2;
 const uint32_t UPGRADE_HEIGHT_V3                             = 3;
 const uint32_t UPGRADE_HEIGHT_V4                             = 4;
+const uint32_t UPGRADE_HEIGHT_V5                             = 5;
 const unsigned UPGRADE_VOTING_THRESHOLD                      = 90;               // percent
 const size_t   UPGRADE_VOTING_WINDOW                         = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
 const size_t   UPGRADE_WINDOW                                = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
